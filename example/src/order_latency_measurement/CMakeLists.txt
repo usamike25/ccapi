@@ -1,0 +1,6 @@
+set(NAME order_latency_measurement)
+project(${NAME})
+add_compile_definitions(CCAPI_ENABLE_SERVICE_EXECUTION_MANAGEMENT)
+add_compile_definitions(CCAPI_ENABLE_EXCHANGE_GATEIO)
+add_executable(${NAME} main.cpp)
+add_dependencies(${NAME} boost rapidjson)
