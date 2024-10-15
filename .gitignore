@@ -152,3 +152,4 @@ target/
 obj/
 node_modules/
 package-lock.json
+example/src/order_latency_measurement/config.env
